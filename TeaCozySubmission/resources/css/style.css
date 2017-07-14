@@ -1,0 +1,184 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+
+body {
+  font-size: 22px;
+  margin: 0;
+  background-color: black;
+  text-align: center;
+}
+
+/*HEADER*/
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 5;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+/*MAIN CONTENT*/
+
+.body {
+  padding-top:54px;
+}
+
+/*MISSION SECTION*/
+
+#mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  margin: 69px auto 60px auto;
+}
+
+#mission.image {
+  position: absolute;
+  z-index: 1;
+}
+
+#banner {
+  position: absolute;
+  z-index: 2;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+#banner h2, #banner h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+/*FEATURED SECTION*/
+
+#featured {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#toprow, #bottomrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+#head {
+  margin-top: 40px;
+}
+
+#bottomrow {
+  margin-bottom: 40px;
+}
+
+#toprow div, #bottomrow div {
+  padding: 0 25px;
+}
+
+#toprow img, #bottomrow img {
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+#toprow h4, #bottomrow h4 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#featured img {
+  height: 200px;
+  width: 300px;
+}
+
+#locations {
+  margin: auto;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/teacup.jpg");
+}
+
+#loc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#lochead h2 {
+  padding: 40px 0 0 0;
+  margin: 0;
+}
+
+#address {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0;
+}
+
+#address, #add1, #add2, #add3 {
+  margin-top: 0;
+}
+
+#address h4 {
+  font-weight: lighter;
+}
+
+#address h3, #address h4 {
+  margin: 0;
+}
+
+#add1, #add2, #add3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  text-align: center;
+  margin: 15px 20px;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  padding: 0 5px;
+}
+
+#contact {
+  height: 200px;
+}
+
+#contact h2 {
+  margin-top: 10px;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 0;
+}
